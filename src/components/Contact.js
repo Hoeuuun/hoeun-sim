@@ -17,11 +17,16 @@ const ContactButton = styled(PortfolioButton)`
 
 export function Contact() {
     return (
+        <a name="contact">
         <div style={{backgroundColor: 'lightgrey'}}>
             <a href="https://www.linkedin.com/in/hoeun-sim-9b195435/" target="_blank">
                 <ContactButton
-                    style={{width: '50%', marginTop: '10em', marginLeft: '25%', marginBottom: '5em', justifyContent: 'center'}}>Let's get in
-                    touch.
+                    style={{width: '50%',
+                            marginTop: '10em',
+                            marginLeft: '25%',
+                            marginBottom: '5em',
+                            justifyContent: 'center'}}>
+                    Let's get in touch.
                 </ContactButton>
             </a>
             <p>
@@ -31,5 +36,6 @@ export function Contact() {
                 </a>
             </p>
         </div>
+        </a>
     );
 }

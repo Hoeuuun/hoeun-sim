@@ -29,6 +29,7 @@ const TitleText = styled.p`
 
 export function About() {
     return (
+        <a name="about">
         <div>
             <Card bg="white" style={{ margin: '2rem', display: 'flex', flexDirection: 'row'}}>
                 <Card.Img variant="left" src="/canyon.jpg" alt="Hoeun" width="50%"/>
@@ -44,5 +45,6 @@ export function About() {
                 </Card.Body>
               </Card>
         </div>
+        </a>
     );
 }

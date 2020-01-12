@@ -20,15 +20,16 @@ const HeroImage = styled.div`
 
 /* Text in the middle of the image */
 const HeroText = styled.div`
+    font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     position: absolute;
-    top: 50%;
+    top: 70%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: #fff;
     letter-spacing: 10px;
-    font-size: 4rem;
-    font-weight: bold;
+    font-size: 5em;
+    font-weight: lighter;
 `;
 
 /* Portfolio button */
@@ -41,7 +42,7 @@ export const PortfolioButton = styled.button`
     letter-spacing: 5px;
     cursor: pointer;
     background: transparent;
-    margin: 80px auto 0;
+    margin: 0em 5em 5em 5em;
     font-weight: 700;
     padding: 12px 26px 12px 26px;
     border: 2px solid #fff;
