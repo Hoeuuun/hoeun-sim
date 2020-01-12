@@ -2,7 +2,9 @@ import React, {Component} from 'react';
 import {NavBar} from "./components/NavBar";
 import {Header} from "./components/Header";
 import {About} from "./components/About";
-import {Skills} from "./components/Skills";
+import {Contact} from "./components/Contact";
+import {Footer} from "./components/Footer";
+
 
 
 export default function App() {
@@ -11,7 +13,8 @@ export default function App() {
         <NavBar/>
         <Header/>
         <About/>
-        <Skills/>
+        <Contact/>
+        <Footer/>>
     </div>
   );
 }

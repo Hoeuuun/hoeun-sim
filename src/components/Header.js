@@ -32,7 +32,7 @@ const HeroText = styled.div`
 `;
 
 /* Portfolio button */
-const PortfolioButton = styled.button`
+export const PortfolioButton = styled.button`
     color: #fff;
     font-size: 1rem;
     position: relative;
@@ -43,7 +43,7 @@ const PortfolioButton = styled.button`
     background: transparent;
     margin: 80px auto 0;
     font-weight: 700;
-    padding: 12px 26px 12px;
+    padding: 12px 26px 12px 26px;
     border: 2px solid #fff;
    
     &:hover, &:active {

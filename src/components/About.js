@@ -2,10 +2,11 @@ import React, { Component } from 'react';
 import styled from 'styled-components';
 import Card from 'react-bootstrap/Card';
 
-const GreenText = styled.p`
+const ColoredText = styled.p`
     font-size: 2vw;
     color: #00b386;
     letter-spacing: 1.5px;
+    color: darkslategrey;
 `;
 
 const BoldText = styled.p`
@@ -38,7 +39,7 @@ export function About() {
                     <BoldText>Researcher</BoldText>
                     <SmallText>turned </SmallText>
                     <BoldText>Programmer.</BoldText>
-                    <GreenText> I like to explore and make things.</GreenText>
+                    <ColoredText> I like to explore and make things.</ColoredText>
                   </Card.Text>
                 </Card.Body>
               </Card>
