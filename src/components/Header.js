@@ -25,7 +25,7 @@ const HeroText = styled.div`
     position: absolute;
     top: 70%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -40%);
     color: #fff;
     letter-spacing: 10px;
     font-size: 5em;
